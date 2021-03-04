@@ -1,0 +1,62 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1677,         52]
+NotebookOptionsPosition[      1228,         37]
+NotebookOutlinePosition[      1635,         53]
+CellTagsIndexPosition[      1592,         50]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{"data", "=", 
+  RowBox[{"Import", "[", 
+   RowBox[{"\"\<file.csv\>\"", ",", "\"\<Dataset\>\"", ",", 
+    RowBox[{"HeaderLines", "\[Rule]", "1"}]}], "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{"data", "[", 
+  RowBox[{"All", ",", "\"\<ColumnName\>\""}], "]"}]}], "Input",
+ CellChangeTimes->{{3.823852473256728*^9, 3.82385252679543*^9}, {
+  3.8238527247200193`*^9, 
+  3.823852752717187*^9}},ExpressionUUID->"2ec62952-a728-42c2-991b-\
+1abd11ac2583"],
+
+Cell["Can also put a URL in to download data from the web.", "Text",
+ CellChangeTimes->{{3.8238525895647707`*^9, 
+  3.823852603071004*^9}},ExpressionUUID->"8e241d6c-f6fd-4e39-a9c4-\
+11ce11774a14"]
+},
+WindowSize->{454.2, 579.6},
+WindowMargins->{{-4.8, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"b8c13586-34fe-4385-a381-411dfd11f98e"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 467, 10, 68, "Input",ExpressionUUID->"2ec62952-a728-42c2-991b-1abd11ac2583"],
+Cell[1028, 32, 196, 3, 35, "Text",ExpressionUUID->"8e241d6c-f6fd-4e39-a9c4-11ce11774a14"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
